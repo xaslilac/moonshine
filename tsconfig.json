@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"lib": ["dom", "esnext"],
+		"moduleResolution": "node",
+		"outDir": "target",
+		"target": "esnext",
+		"strict": true,
+		"jsx": "react",
+		"jsxFactory": "React.createElement",
+		"jsxFragmentFactory": "React.Fragment",
+		"baseUrl": ".",
+		"paths": {
+			"moonshine": ["."]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx"]
+}
