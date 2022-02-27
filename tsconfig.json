@@ -1,7 +1,0 @@
-{
-	"extends": "@mckayla/tsconfig",
-	"compilerOptions": {
-		"experimentalDecorators": true
-	},
-	"include": ["src/**/*"]
-}
